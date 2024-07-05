@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fit-backup"
+version = "0.1.0"
+description = ""
+authors = ["Petr Šťastný <petr.stastny@second-foundation.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
